@@ -1,0 +1,11 @@
+# Core packages (all machines).
+#
+#   NVIDIA GPU machine:  pip install -r requirements.txt -r requirements-nvidia.txt
+#   CPU-only machine:    pip install torch --index-url https://download.pytorch.org/whl/cpu
+#                        pip install -r requirements.txt
+#
+# pyannote.audio brings in PyTorch by itself, so on an NVIDIA machine no separate PyTorch step is needed.
+faster-whisper>=1.1.0
+pyannote.audio>=4.0
+python-docx
+soundfile

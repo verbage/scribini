@@ -1,0 +1,4 @@
+# Extra libraries for NVIDIA GPU machines only (CUDA 12 libraries used by faster-whisper / CTranslate2).
+# Skip this file on CPU-only machines: it adds several GB that a CPU-only setup does not use.
+nvidia-cublas-cu12
+nvidia-cudnn-cu12

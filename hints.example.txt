@@ -1,0 +1,21 @@
+# Example hint list for Scribini.
+#
+# Copy this file to hints.txt (your own list; git ignores it) and edit it.
+# Edit and grow it any time.
+#
+# Lines starting with # are comments.
+#
+# 1) Terms to favor: names, jargon, acronyms. One per line.
+#    Whisper is nudged toward these spellings (it is a bias, not a guarantee).
+#
+# 2) Fix-ups: "misheard => correct". Applied automatically after transcription,
+#    ignoring upper/lower case, to whole words or phrases only.
+#
+# Examples (delete these and add your own):
+
+Kubernetes
+Guadalajara
+Dr. Alvarez
+
+kuber netties => Kubernetes
+doctor alvarez => Dr. Alvarez

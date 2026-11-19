@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Models and tokens (the pyannote model is gated and must not be redistributed)
+models/
+*.ckpt
+*.bin
+*.safetensors
+.env
+*token*
+
+# Your personal hint list (copy hints.example.txt to hints.txt)
+hints.txt
+
+# Recordings, results and speaker clips (may contain private conversations)
+output/
+*.mp3
+*.m4a
+*.wav
+*.flac
+*.ogg
+*.mp4
+*.transcript.json
+*.names.txt
+*_speakers/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
